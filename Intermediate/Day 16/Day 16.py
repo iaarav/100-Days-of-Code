@@ -19,5 +19,5 @@ while isRunning:
         drink = Menu.find_drink(order_name=choice)
 
         if coffeeMaker.is_resource_sufficient(drink) and moneyMachine.make_payment(drink.cost):
-                coffeeMaker.make_coffee(drink)
-                moneyMachine.make_payment(drink)
+            coffeeMaker.make_coffee(drink)
+            moneyMachine.make_payment(drink)
