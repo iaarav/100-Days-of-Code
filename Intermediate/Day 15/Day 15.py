@@ -123,7 +123,7 @@ def coffeeMaker():
         else:
             print("Invalid Input. Try again.")
 
-        time.sleep(3)
+        time.sleep(5)
 
 
 coffeeMaker()
