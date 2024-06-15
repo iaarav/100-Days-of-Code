@@ -5,6 +5,7 @@ import os
 def clear():
     os.system("clear")  # for macOS
 
+
 print("Welcome to the silent bidding simulator!!")
 print(logo)
 
@@ -21,7 +22,7 @@ while isRunning:
     wantToRun = input("Are there any other bidders?? Enter \"yes\" or \"no\": ").lower()
     clear()
 
-    if bid>maxBid:
+    if bid > maxBid:
         maxBid = bid
 
     if wantToRun == "no":

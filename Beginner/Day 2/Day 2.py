@@ -9,5 +9,3 @@ totalAmount = tipAmount + billAmount
 amountPerPerson = str(round((totalAmount / numberOfPeople), 2))
 
 print("Each person should give: $" + amountPerPerson)
-
-

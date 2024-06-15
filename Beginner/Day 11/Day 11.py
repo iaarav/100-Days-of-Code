@@ -70,7 +70,7 @@ def blackjack():
 
     if scoreCalculator(dealerCards) > 21:
         dealerIsUnder21 = False
-    if scoreCalculator(yourCards) >21:
+    if scoreCalculator(yourCards) > 21:
         youAreUnder21 = False
 
     print(f"The Dealer's Final Cards are {dealerCards}, and the dealer's final score is {scoreCalculator(dealerCards)}")
