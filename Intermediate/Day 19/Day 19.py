@@ -20,7 +20,7 @@ xCoordinate = -220
 yCoordinate = 160
 turtles = []
 
-time.sleep(2)
+time.sleep(2.5)
 
 for i in range(6):
     t = Turtle()
