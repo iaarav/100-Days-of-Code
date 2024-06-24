@@ -9,6 +9,6 @@ newDict = {code.letter: code.code for (letter, code) in data.iterrows()}
 word = input("Enter a word: ").upper()
 
 
-finalDict = [newDict[n] for n in word ]
+finalDict = [newDict[n] for n in word]
 
 print(finalDict)
