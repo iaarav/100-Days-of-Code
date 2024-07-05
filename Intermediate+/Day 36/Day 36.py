@@ -42,6 +42,7 @@ else:
 diff_percent = round((difference / float(yesterday_closing_price)) * 100)
 print(diff_percent)
 
+
 if abs(diff_percent) > 1:
     news_params = {
         "apiKey": NEWS_API_KEY,
