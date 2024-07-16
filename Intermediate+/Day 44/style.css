@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+
+#image{
+
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+
+    
+}
+
+img{
+    border: 5px solid white ;
+}
+
+#Headingg{
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    text-align: center;
+}
+
+#captionn{
+    color: white;
+    text-align: center;
+}
