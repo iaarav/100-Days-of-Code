@@ -17,7 +17,7 @@ items = driver.find_elements(by=By.CSS_SELECTOR, value="#store div")
 item_ids = [item.get_attribute("id") for item in items]
 
 timeout = time.time() + 5
-five_min = time.time() + 60*5 # 5 minutes
+five_min = time.time() + 60 * 5  # 5 minutes
 
 while True:
     cookie.click()
