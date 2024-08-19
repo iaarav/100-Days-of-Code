@@ -1,0 +1,1 @@
+Learned more about git, github - mainly gitignore and pull requests and wsgi servers in python!!
